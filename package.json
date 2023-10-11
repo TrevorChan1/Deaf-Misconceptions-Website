@@ -1,0 +1,22 @@
+{
+  "name": "deaf-misconceptions-website",
+  "version": "1.0.0",
+  "description": "DE300 Poster Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrevorChan1/Deaf-Misconceptions-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrevorChan1/Deaf-Misconceptions-Website/issues"
+  },
+  "homepage": "https://github.com/TrevorChan1/Deaf-Misconceptions-Website#readme",
+  "dependencies": {
+    "firebase": "^10.4.0"
+  }
+}
