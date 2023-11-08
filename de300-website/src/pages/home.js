@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, StrictMode } from "react";
 import { storage } from "../firebase";
 import { ref, getDownloadURL, listAll, list } from "firebase/storage";
 // import logo from '../logo.svg';
