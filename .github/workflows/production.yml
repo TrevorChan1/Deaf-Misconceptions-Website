@@ -15,7 +15,7 @@ jobs:
       with:
         node-version: 16.x
         cache: 'npm'
-        cache-dependency-path: package-lock.json
+        cache-dependency-path: de300-website/package-lock.json
     - name: Install dependencies
       run: cd de300-website && npm install
     - name: Build file
