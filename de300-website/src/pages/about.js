@@ -4,7 +4,7 @@ import React from "react";
 const About = () => {
   
     return (
-        <div className="App">
+        <div className="Sources">
             <h1>About Us</h1>
           <p>
           Hello! We are hearing students from a course at Boston University, Introduction to the Deaf World (SED DE 300). We are all new to learning about the Deaf community, and were tasked with a project to raise awareness about the Deaf World. We created a series of posters to place around our campus, which you will also find on this website. 
