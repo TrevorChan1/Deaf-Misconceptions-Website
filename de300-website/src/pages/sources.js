@@ -11,7 +11,7 @@ const Sources = () => {
             <p>Holmes, T. (2013). Introduction to American Deaf Culture. New York, New York: Oxford University Press. (ADC) ISBN: 9780199777549</p>
             <p>Lane, H & Hoffmesiter, R & Bahan, B. (1996). A Journey into the Deaf-World. San Diego: California: DawnSignPress. (JDW) ISBN: 9780915035632</p>
             <p>Padden, C. & Humphries, T. (2005). Inside Deaf Culture. Cambridge, Mass.: Harvard University Press. (IDC) ISBN: 9780674022522</p>
-            <p href="https://mdu.ac.in/UpFiles/UpPdfFiles/2022/Jan/4_01-10-2022_16-10-13_for%20hearing%20people%20only.pdf">For Hearing People Only</p>
+            <a href="https://mdu.ac.in/UpFiles/UpPdfFiles/2022/Jan/4_01-10-2022_16-10-13_for%20hearing%20people%20only.pdf">For Hearing People Only</a>
 
             <h2>More Useful Links</h2>
             <a href="https://www.nad.org">National Association of the Deaf Official Website</a>
