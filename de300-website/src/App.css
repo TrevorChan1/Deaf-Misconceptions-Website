@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
 
 .App-logo {
@@ -77,4 +80,28 @@ nav {
 
 .navbar-link:hover {
   color: #95AF9C; /* Updated accent color on hover */
+}
+
+.display {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.displayImg {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.displayImg.selected {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: auto;
+  height: auto;
+  max-width: 50%;
+  margin-bottom: 25px;
 }
