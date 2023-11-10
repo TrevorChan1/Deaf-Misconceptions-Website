@@ -12,6 +12,7 @@ const NavBar = () => {
             </h3>
             <div className="navbar-links">
                 <Link to="/about" className="navbar-link">About Us</Link>
+                <Link to="/sources" className="navbar-link">Learn More</Link>
             </div>
             
         </nav>
