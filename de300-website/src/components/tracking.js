@@ -28,7 +28,11 @@ const Tracking = () => {
         })
     }, [building])
 
-    return null;
+    return (
+        <div>
+            <h1>Please be Patient as you are Redirected to the Site.</h1>
+        </div>
+    );
 }
 
 export default Tracking;
