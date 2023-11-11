@@ -19,9 +19,11 @@ const Sources = () => {
             <a href="https://www.youtube.com/watch?app=desktop&v=PL5d8kyZUQk">Through Deaf Eyes Documentary</a>
             <p></p>
             <a href="https://www.disabilitymuseum.org/dhm/edu/essay.html?id=59">More information on Alexander Graham Bell</a>
-            
+            <p></p>
+            <a href="https://www.instagram.com/silentvoicecanada/guide/asl-first-language-acquisition-for-dhh-kids/18017277829681869/?igshid=Y2NkYjk0MDhjYg==">ASL First Language Acquisition for DHH Kids Instagram Guide</a>
+
             <h2>Take BU Wheelock "DE" Courses!</h2>
-            <h3>Other Ways to Learn more</h3>
+            <h3>Other Ways to Learn more on campus</h3>
             <a href="https://www.instagram.com/budeafstudiesclub/">BU Deaf Studies Club</a>
 
         </div>
