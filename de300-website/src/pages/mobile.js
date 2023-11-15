@@ -48,15 +48,6 @@ const Mobile = () => {
               alt={`Slide ${currentIndex}`} 
               style={imageStyle} 
             />
-            <div className="swipe-indicators">
-                {imageUrls.map((_, index) => (
-                    <button
-                        key={index}
-                        className={`indicator ${index === currentIndex ? "active" : ""}`}
-                        onClick={() => setCurrentIndex(index)}
-                    />
-                ))}
-            </div>
         </div>
     );
 };
