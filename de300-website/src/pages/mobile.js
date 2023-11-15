@@ -42,12 +42,13 @@ const Mobile = () => {
     };
 
     return (
-        <div className="App" {...handlers}>
+        <div className="App" {...handlers} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
               src={imageUrls[currentIndex]} 
               alt={`Slide ${currentIndex}`} 
               style={imageStyle} 
             />
+            <p style={{ textAlign: "center", fontWeight: "bold", fontFamily: "Comic Sans MS, cursive, sans-serif" }}>Swipe for more!</p>
         </div>
     );
 };
