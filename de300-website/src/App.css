@@ -2,8 +2,6 @@
   text-align: center;
   display: flex;
   flex-wrap: nowrap;
-  flexDirection: column;
-  alignItems: center;
   overflow-x: auto;
 }
 
