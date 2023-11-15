@@ -1,5 +1,5 @@
 import React, { useEffect }  from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, Navigate } from "react-router-dom";
 import { db } from "../firebase";
 import { doc, getDoc, updateDoc, increment, setDoc, serverTimestamp, orderBy, query, limit, where, getDocs } from "firebase/firestore";
 
@@ -7,7 +7,6 @@ import { doc, getDoc, updateDoc, increment, setDoc, serverTimestamp, orderBy, qu
 
 const Tracking = () => {
     const { building } = useParams();
-    const navigate = useNavigate();
     // console.log(building)
     
     useEffect (() => {
@@ -24,11 +23,11 @@ const Tracking = () => {
                 });
             }
         }).then(() => {
-            navigate('/');
+            return <Navigate to="/"/>
         })
     }, [building])
 
-    return null;
+    return <Navigate to="/"/>;
 }
 
 export default Tracking;

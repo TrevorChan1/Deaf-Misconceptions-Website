@@ -5,6 +5,7 @@ import { ref, getDownloadURL, listAll, list } from "firebase/storage";
 
 const Home = () => {
     const [imageUrls, setImageUrls] = useState([]);
+    const [selectedImg, setSelectedImg] = useState();
 
     const imageRef = ref(storage, "images/");
 
@@ -20,10 +21,13 @@ const Home = () => {
       }, []);
   
     return (
-        <div className="App">
-          {imageUrls.map((url) => {
-            return <img src={url} />;
-          })}
+        <div className="images">
+          <div className="display">
+            {imageUrls.map((url) => {
+              return <img src={url} className="displayImg" onClick={() => setSelectedImg(url)} />;
+            })}
+          </div>
+          {selectedImg ? (<img src = {selectedImg} className="displayImg selected"/>) : (<></>) }
         </div>
     );
 };
