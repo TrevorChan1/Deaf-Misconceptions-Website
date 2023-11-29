@@ -25,7 +25,8 @@ const Sources = () => {
             <h2>Take BU Wheelock "DE" Courses!</h2>
             <h3>Other Ways to Learn more on campus</h3>
             <a href="https://www.instagram.com/budeafstudiesclub/">BU Deaf Studies Club</a>
-
+            <h3>More DE300 Project Websites With Great Resources</h3>
+            <a href="https://sites.google.com/bu.edu/all-hands-on-deck/home">All Hands on Deck</a>
         </div>
     );
 };
